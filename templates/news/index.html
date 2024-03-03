@@ -61,8 +61,8 @@
                                     <figure class="bsbig_fig"><a href="{{ mahalliy.get_absolute_url }}" class="featured_img">
                                         <img alt="" src="{{ mahalliy.image.url }}"> <span
                                             class="overlay"></span> </a>
-                                        <figcaption><a href="{{ mahalliy.get_absolute_url }}">{{ mahalliy.title | truncatewords:5 }}</a></figcaption>
-                                        <p>{{ mahalliy.title }}</p>
+                                        <figcaption><a href="{{ mahalliy.get_absolute_url }}">{{ mahalliy.title}}</a></figcaption>
+                                        <p>{{ mahalliy.body | truncatewords:4 }}</p>
                                     </figure>
                                 </li>
                                     {% endif %}
